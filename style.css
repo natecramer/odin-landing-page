@@ -7,6 +7,11 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 button {
     border: none;
     padding: 8px 32px;
@@ -19,6 +24,15 @@ button {
     font-weight: bold;
     background-color: #3882F6;
     color:#F9FAF8;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color:#F9FAF8;
+    color: #3882F6;
+    /* border: 2px;
+    border-color: #3882F6;
+    border-style: solid; */
 }
 
 #button-top {
@@ -178,7 +192,7 @@ li {
     flex: 1 0 auto;
 }
 
-.bottom-signup-button {
+#bottom-signup-button {
     border: 2px;
     border-color: #F9FAF8;
     border-style: solid;
